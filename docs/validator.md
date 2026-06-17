@@ -34,7 +34,7 @@
 
 #### 상수
 
-| 이름 | 값 | 근거 |
+| 이름 | 值 | 근거 |
 |------|-----|------|
 | `MAX_LOCAL_PART_LENGTH` | `64` | RFC 3696 |
 | `MAX_EMAIL_LENGTH` | `254` | RFC 3696 |
@@ -116,7 +116,7 @@ AI가 이 스펙을 기준으로 코드를 수정할 때 지켜야 할 사항:
 getValidEmails가 validator.md 스펙을 따르는지 확인하고, 어긋나면 수정해줘.
 ```
 
-### Cursor Docs-only Docs (URL 등록 시)
+### Cursor Docs (URL 등록 시)
 
 1. 이 파일을 Gist 등 공개 URL에 호스팅
 2. Cursor Settings → Indexing & Docs → Add new doc
